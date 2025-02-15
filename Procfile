@@ -1,1 +1,1 @@
-web: ./install.sh && python app.py
+web: apt-get update && apt-get install -y wkhtmltopdf && python app.py
