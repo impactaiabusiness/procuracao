@@ -1,1 +1,1 @@
-web: python app.py
+web: ./install.sh && python app.py
